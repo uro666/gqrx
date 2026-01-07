@@ -7,6 +7,7 @@ URL:		https://github.com/gqrx-sdr/gqrx
 License:	GPL-3.0-only
 Group:		Communications/Radio
 BuildSystem:	cmake
+BuildRequires:	appstream-util
 BuildRequires:	boost-devel
 BuildRequires:	cmake
 BuildRequires:	cmake(gnuradio-osmosdr)
