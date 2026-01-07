@@ -15,10 +15,13 @@ BuildRequires:	ninja
 BuildRequires:	gnuradio-pmt-devel
 BuildRequires:	gnuradio-utils
 BuildRequires:	hicolor-icon-theme
+BuildRequires:	qt6-qtbase-theme-gtk3
 BuildRequires:	pkgconfig
 BuildRequires:	pkgconfig(alsa)
 BuildRequires:	pkgconfig(appstream-glib)
 BuildRequires:	pkgconfig(fftw3f) >= 3.2
+BuildRequires:	pkgconfig(gmp)
+BuildRequires:	pkgconfig(gmpxx)
 BuildRequires:	pkgconfig(gnuradio-analog)
 BuildRequires:	pkgconfig(gnuradio-audio)
 BuildRequires:	pkgconfig(gnuradio-blocks)
